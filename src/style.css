@@ -1,0 +1,39 @@
+.gallery{
+    background-color: rgb(135, 194, 194);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 800px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: rgb(167, 118, 54);
+    text-align: center;
+}
+body{
+    background-color: rgb(135, 194, 194);
+
+}
+
+.gallery-item{
+    list-style: none;
+}
+
+.gallery-photo{
+    border: none;
+    border-radius: 20px;
+}
+
+.load-more{
+    background-color: rgb(135, 194, 194);
+    border-radius: 30px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
